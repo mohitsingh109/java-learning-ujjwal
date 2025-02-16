@@ -3,7 +3,7 @@ package org.example.interfaces;
 public class Manager implements AccessControl{
     @Override
     public void readDocument() {
-
+        System.out.println("Read");
     }
 
     @Override
