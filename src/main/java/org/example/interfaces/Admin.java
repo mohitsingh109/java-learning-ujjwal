@@ -18,6 +18,6 @@ public class Admin implements AccessControl{
 
     @Override
     public void shareDocument(String email) {
-        System.out.println("Sharing email: %s".formatted(email));
+        System.out.println("Sharing email: %s done.".formatted(email));
     }
 }

@@ -8,7 +8,7 @@ public class Editor implements AccessControl{
 
     @Override
     public void writeDocument() {
-        System.out.println("Write");
+        System.out.println("Write ok");
     }
 
     @Override
