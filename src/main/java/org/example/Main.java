@@ -38,6 +38,7 @@ public class Main {
         NotificationService notificationService = new NotificationService();
         notificationService.send(tv);
         notificationService.send(tv);
+        notificationService.send(tv);
         notificationService.send(email);
     }
 }
