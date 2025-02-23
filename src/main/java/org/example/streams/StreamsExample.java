@@ -24,6 +24,7 @@ public class StreamsExample {
         //new
         //names.forEach(  data -> System.out.println(data)  );
         names.forEach(System.out::println); // Method Reference
+
     }
 
     public static void filterAList() {
@@ -38,8 +39,43 @@ public class StreamsExample {
         }
 
         //new
-        List<Integer> result1 = numbers.stream() // for loop
+        List<Integer> result1 = numbers.stream() // for loop // Buffer
                 .filter(value -> value % 2 == 0) // if
                 .toList();
+
+        long count = numbers.stream() // for loop // Buffer
+                .filter(value -> value % 2 == 0) // if
+                .count();
+    }
+
+
+    public static void transform() {
+
+        //old
+        List<String> server = Arrays.asList("WEB", "CACHE", "EC");
+
+        List<String> result = new ArrayList<>();
+
+        for(String value: server) {
+
+        }
+
+        //Arrays.asList("PING WEB", "PING CACHE", "PING EC");
+
+        //steams
+
+        List<String> result1 = server.stream() // for
+                .map(value -> "PING " + value) // its job is to transform one value to another
+                .toList();
+
+//        List<Integer> ids = employess.steam()
+//                .filter(e -> e.getDepartment().equals("IT"))
+//                .filter(e -> e.getYearOfExp() > 5)
+//                .filter(e -> e.getTech().contains("JAVA"))
+//                .map(e -> e.getId()) // Employee Object ==> Int
+//                .distinct()
+//                .toList();
+
+
     }
 }
