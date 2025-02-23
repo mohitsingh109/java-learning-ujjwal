@@ -47,5 +47,25 @@ public class ArraysCollection {
         stringList.add("Karan");
         stringList.add("Mohit");
 
+        // immutable
+        List<Integer> aList = Arrays.asList(10, 20, 30);
+
+        // immutable
+        List<String> notAllowedVideo = Arrays.asList("Java", "C++", "Devil", "Death", "ABC");
+
+
+
+        //notAllowedVideo.remove("Death");
+
+        List<Integer> lList = List.of(10, 20, 30); // 11
+
+        //
+        List<Integer> mList = new ArrayList<>() {{
+            add(10);
+            add(20);
+            add(40);
+        }};
+
+        mList.add(50);
     }
 }

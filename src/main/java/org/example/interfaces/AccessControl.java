@@ -10,3 +10,4 @@ public interface AccessControl {
 
     void shareDocument(String email);
 }
+
