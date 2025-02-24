@@ -1,0 +1,64 @@
+Assignment : Social Media Sentiment Analysis
+Scenario:
+You are part of a team building a sentiment analysis tool for a social media platform. Your task is to analyze user comments for trends.
+
+Task 1: You are given a list of comments. Some comments contain null values. Clean the data by filtering out nulls and collecting the valid comments.
+Task 2: Count how many comments contain negative words like “bad,” “hate,” or “terrible.”
+Task 3: Convert all comments to uppercase for uniform analysis.
+Task 4: Find the longest comment and display it.
+Task 5: Find and print the top 3 most frequent words across all comments.
+
+
+Assignment : Employee Performance Review System
+Scenario:
+You work for an HR department building a performance review system. You need to process data to evaluate employee performance.
+
+Task 1: Given a list of employees and their salaries, calculate the average salary.
+Task 2: Filter out employees who have been rated below a performance score of 3. List the names of all top-performing employees (with a score above 3).
+Task 3: Count how many employees earn above the average salary.
+Task 4: Group employees by their department and find the highest earner in each department.
+Task 5: Find the top 5 highest-paid employees, sorted by salary.
+
+
+Assignment : Music Playlist Manager
+Scenario:
+You are building a music playlist manager. Users can create playlists, and you need to perform some operations on the data.
+
+Task 1: You are given a list of song durations. Some of them are missing data (null). Filter out the nulls and create a clean list of song durations.
+Task 2: Calculate the total duration of the playlist.
+Task 3: Find the shortest song in the playlist.
+Task 4: Sort the songs by their length and return the first 10 songs.
+Task 5: Convert the playlist into a set of unique song titles, ensuring no duplicates.
+
+
+Assignment : Retail Inventory Management
+Scenario:
+You are working with a retail company that needs to analyze inventory data for decision-making.
+
+Task 1: Filter out all products that are out of stock and collect the available products into a list.
+Task 2: Sort the products by their price, highest to lowest.
+Task 3: Find the total quantity of items in stock.
+Task 4: Find the product with the lowest price and display its name.
+Task 5: Group the products by their supplier and find the total number of items provided by each supplier.
+
+
+Assignment : Fitness Tracker Data Aggregator
+Scenario:
+You are working on a fitness app that tracks users’ workout sessions. You need to aggregate user workout data for insights.
+
+Task 1: You are given a list of workout sessions, some of which are duplicate entries. Remove duplicates and create a list of distinct sessions.
+Task 2: Find the longest workout session (in minutes).
+Task 3: Calculate the total calories burned by all users.
+Task 4: Find the top 3 most common workout types (e.g., running, swimming, cycling).
+Task 5: Group the workouts by day of the week and calculate the total minutes spent working out each day.
+
+
+Assignment : Customer Service Ticket Management
+Scenario:
+You are developing a customer service ticket management system where agents process customer requests.
+
+Task 1: You are given a list of tickets. Some tickets are flagged as duplicates. Remove duplicate tickets.
+Task 2: Filter tickets where the priority is “High”, and collect them into a list.
+Task 3: Count how many tickets were resolved within 24 hours.
+Task 4: Group tickets by their status (e.g., open, closed, in-progress) and find the total number in each status.
+Task 5: Sort tickets by their submission date, newest to oldest, and display the first 5.
