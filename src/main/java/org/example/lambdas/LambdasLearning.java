@@ -12,7 +12,6 @@ public class LambdasLearning {
 
         // 4 FI (Functional Interface)
         // Predicate<T>: take a single argument and return a bool value
-
                                              // argument -> return statement
         Predicate<String> isEmailValid = email -> email.contains("@gmail.com");
         System.out.println(isEmailValid.test("mohit@gmail.com"));
